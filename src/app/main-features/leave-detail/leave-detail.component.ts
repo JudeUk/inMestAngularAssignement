@@ -33,7 +33,7 @@ leave :any;
 
   getMyLeaveById(id: number){
 
-    this.leaveService.getLeaveById(id).subscribe(resp =>{
+    this.leaveService.getLeavesById(id).subscribe(resp =>{
 
       this.leave = resp;
     });

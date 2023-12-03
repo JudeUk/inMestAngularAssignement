@@ -20,8 +20,7 @@ export class LeaveComponent implements OnInit{
     this.getMyLeaves();
   }
 
-  leaves = [
-  ];
+  leaves :any = [];
 
   getMyLeaves(){
 

@@ -8,9 +8,19 @@ export class LeaveService {
 
   constructor() { }
 
+
+
+  getLeavesById(id: number){
+    const leaveData = this.leavesDb.find(el => el.id === id);
+    return of (leaveData);
+  }
+
   getLeaves(){
 
-   return of( [{
+    return of(this.leavesDb);
+  }
+
+   private leavesDb = [{
       id: 1, 
       leave_type: "maternity", 
       start_date:"Dec 20, 2023",
@@ -35,6 +45,6 @@ export class LeaveService {
       date_created_by:"Mar 21, 2023",
       action:""
     
-    }])
+    }]
   }
-}
+
