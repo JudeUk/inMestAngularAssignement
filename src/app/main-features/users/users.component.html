@@ -1,0 +1,24 @@
+<table class="table">
+    <thead>
+        <th>User ID</th>
+        <th>First Name</th>
+        <th>Last Nam</th>
+        <th>Email</th>
+        <th>Cohort</th>
+        <th>Action</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Fleur</td>
+            <td>Sessinou</td>
+            <td>fleur.sessinoumeltwater.org</td>
+            <td>2024</td>
+            <td>
+                <a  [routerLink]="['/user-details']" [queryParams] ="{id:1}">
+                    <i class="fa fa-eye"></i>
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>

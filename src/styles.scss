@@ -1,1 +1,119 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+
+        
+
+.relative-pos{
+
+    position: relative;
+    background-color: black;
+    height: 30px;
+    width: 300px;
+    left: 30px;
+    right:30px;
+}
+
+.absolute-pos{
+
+    position:absolute;
+    background-color:orange;
+    bottom:0px;
+
+}
+
+.fixed-pos{
+    position: fixed;
+    bottom: 10px;
+    right:10px;
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    background-color:orange;
+    color:#fff;
+    padding:1rem;
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    // box-shadow: rgba(red, green, blue, alpha) 0px 54px 55px, rgba(red, green, blue, alpha) 0px-12;
+
+}
+
+.sticky-pos{
+
+    position:sticky;
+    background-color: #fff;
+    top:3px;
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    justify-content: flex-end;
+    color:#fff;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+
+
+}
+
+.sticky-pos > li{
+
+    margin-left:1rem;
+
+}
+body{
+
+    margin:0px;
+}
+
+.wrapper{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper .side-nav{
+
+    width:250px;
+    height: 100vh;
+}
+.wrapper .side-nav .menu{
+
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+
+
+.wrapper .side-nav .menu a{
+    
+    color:#00C8C8;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    
+}
+
+
+.wrapper .side-nav .menu a:hover{
+    
+    color:#ffff;
+    background-color: #00C8C8;
+    
+}
+.side-nav{
+    list-style-type: none;
+    padding-left:10px
+}
+
+
+.wrapper .side-nav .menu .menu-active{
+    
+    color:#ffff;
+    background-color: #00C8C8;
+   
+}

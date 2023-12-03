@@ -1,0 +1,39 @@
+<div class="side-nav">
+    <img class="logo" src="images/icons/inMEST logo.png" alt="" width="80px" height="40px">
+
+    <ul class="menu">
+    
+        <li >
+            <a [routerLink]="['/']" [routerLinkActive]="'menu-active'" [routerLinkActiveOptions]="{exact: true}"> 
+                <i class="fa fa-tachometer" aria-hidden="true"></i>
+                Dashboard
+            </a>
+           
+        </li>
+        <li>
+            <a [routerLink]="['/attendance']">
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+            Attendance
+            </a>
+        </li>
+        <li>
+            <a [routerLink]="['/leave']">
+                <i class="fa fa-bed" aria-hidden="true"></i>
+            Leave
+            </a>
+        </li>
+
+        <li>
+            <a [routerLink]="['/analytics']">
+                <i class="fa fa-bar-chart" aria-hidden="true"></i>
+            Analytics
+            </a>
+        </li>
+        <li>
+            <a [routerLink]="['/users']"> 
+                <i class="fa fa-users" aria-hidden="true"></i>
+            Users
+            </a>
+        </li>
+    </ul>
+</div>
