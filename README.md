@@ -1,2 +1,2 @@
-# inMestAngularAssignement
-Mest 2024 cohort Assignment -Design the Ui for inMest App in Angular.
+# inMestAngularAssignment
+MEST 2024 cohort Assignment - Design the UI for the inMest App in Angular.
